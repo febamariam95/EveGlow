@@ -7,8 +7,7 @@ from django.shortcuts import render
 def About(request):
     return render(request, 'about.html')
 
-def Clients(request):
-    return render(request, 'clients.html')
+
 
 def Contact(request):
     return render(request, 'contact.html')
